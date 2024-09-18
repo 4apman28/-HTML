@@ -52,5 +52,38 @@
             <hr>
         </section>
     </main>
+    <footer>
+        <form action="">
+            <fieldset>
+                <legend>Форма регистрации</legend>
+                <div>
+                    Name:
+                    <input type="text" name="inputName">
+                </div>
+                <div>
+                    Password:
+                    <input type="password" name="inputPassword">
+                </div>
+                <div>
+                    Email:
+                    <input type="email" minlength="5" maxlength="30" required>
+                </div>
+                <div>
+                    Оценка?
+                    <select name="stars" id="">
+                        <option value="1star">1</option>
+                        <option value="2star">2</option>
+                        <option value="3star">3</option>
+                        <option value="4star">4</option>
+                        <option value="5star">5</option>
+                    </select>
+                </div>
+                <input type="button" value="КНОПКА">
+                <input type="submit" value="ОТПРАВИТЬ">
+                <input type="reset" value="СБРОС">
+                <input type="file">
+            </fieldset>
+        </form>
+    </footer>
 </body>
 </html>
